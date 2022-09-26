@@ -11,3 +11,6 @@ While [1]
         echo “The program has been running $value times so far.”
         ./stack
 done
+
+export MYSHELL=/bin/sh
+env | grep MYSHELL
